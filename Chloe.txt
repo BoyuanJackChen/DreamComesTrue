@@ -1,0 +1,45 @@
+
+- Intro: Hi Chloe! Good afternoon! Thanks for having this meeting with me! I'm really thrilled talking to you! 
+
+- Tell me about yourself:
+Longer version: I'm from Beijing of China, and I came to California for college. Now I'm at the senior year. I chose Pomona College because it is a small liberal arts college with a more intimate experience and education. 
+Another reason is that I've always been exploring my interests. (When I was very little, I wanted to be an economist, because I wanted to solve poverty. And when I graduated from elementary school I realized it was almost impossible.) At 14, I started watching a lot of movies. There were several summers that I just binged watching movies. At 16, I went to Emerson College for a filmmaking summer camp, and returned to my high school to make a 40-min long short film. I was the director, of course, and we won 6 prizes with 8 nominations. We were the star of that year. At this point I was so convinced that I would be come either a film director or a script writer. I went on making a few short projects when I was in college. 
+But as I had a deeper understanding about this industry, I realized that I wanted to and should study the technology for this art. I can't really tell what exactly changed my mind, it could be some Marvel movies that I watched, or some people in the industry that I talked to; but I realized that the visual effects had its value in itself, and perhaps a very high value, the highest of all. A good film industry should have its good special effects development. So it was in the second year that I started learning CS and Math. And I was immediately into the field of visual technologies. 
+
+- My (research) experience: 
+I am studying in Pomona College. I started in college as a film studies major, and it was in the second year that I started learning CS and Math. 
+My first research experience was an eye-tracking research with professor Breeden in last summer. We collected gaze data for music videos to analyze the relationship between eye movements and the editings. 
+We noticed that: first, humans have a natural tendency to fix on human faces, we call it fixation / smooth movement. But when there were multiple faces in the scene, they would be swapping between the two, and each lingering time is the same. Also, there was a relationship between music speed, editing speed and the eye movement speed. (Most of our time were spent on building up nd fixing the code and getting people to come watch the videos, so eventually we didn't make much room for the analysis part.)
+
+Then I self-taught machine learning, and tried computer vision in face recognition. It was a project that takes the shape information as prior and then combine that with CNN. We took dots on the countour of faces, nose and mouth as shape features, trained a recognition network on the dots first and then combined the result with CNN. 
+Then I was introduced with neural rendering in May, which I believe is the coolest technology in the world. It has the super-effective machine learning aspect, and we also feed it with the human knowlegde - the rendering functions we created over the decades. I feel it is a perfect example of how things should work - human plus machine, and eventually you get something people can enjoy. What I do specifically is increasing the efficiency of NeRF with MAML, a meta-learning model. The NeRF model was published this year in March by a Berkley team. It was gorgeous, in a simple way. It was just relu network, integrating the rgb value times the transparancy along the rays. I'm still fixing the code to run the experiments, but I think I am pretty close to getting it run. Hopefully I can publish it by mid October. 
+
+Another ongoing project is an AR project for language learning. I am implementing the idea from prof Misha Sra at UCSB. What it does is that ..., and then we will test it on participants to see if it actually works. 
+
+
+
+Favorate movies / shows:
+The Curious Case of Benjamin Button
+Bojack Horseman
+The Avatar
+The Prestige
+World War Z
+A Good Year
+(Quite a few animes)
+
+
+
+My Questions:
+- Your DeepLight paper is a masterpiece, and I can tell that it took years of pre-work to get to this point. To me, it looks perfect. Reflectance field, Encoder-Decoder, GAN, intricate loss function. So is this the end of this illumination journey? 
+
+- Seems that Google has already figured out how to estimate lighting and depth in AR. What is next? Light field capturing? And what is next-next? 
+
+- How does it feel like to be on the forefront of special effects? What is the industry like? 
+
+- What is the expectation of prof Debevec on a PhD student? What more should I do? 
+
+
+Confession: 
+Prof Debevec is my top choice. Not even one of. He's my top choice. 
+
+
